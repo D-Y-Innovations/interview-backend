@@ -1,6 +1,6 @@
 # Test Problems
 
-1. 使用typescript 2.0以上版本来编写代码，不能采用javascript兼容模式
+1. 所有题目使用typescript 2.0以上版本来编写代码，不能采用javascript兼容模式
 
     提示：
 
@@ -37,6 +37,19 @@ f>data : 1992; name : agent 1 </def></abc>
 ## 2. 编写 quicksort
 
 ## 3. 用二叉树实现一个数据结构，使插入、查询、删除的时间复杂度为O(logn)
+```javascript
+class Tree {
+// implement your code
+}
+
+let t = new Tree()
+t.add("abc")
+t.exist("abc")  // true
+t.add("def")
+t.add("bcd")
+t.print()      //字典序输出，["abc", "bcd", "def"]
+t.remove("abc")
+```
 
 [node官方文档](https://nodejs.org/en/)
 
