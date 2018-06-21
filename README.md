@@ -5,9 +5,9 @@
     提示：
 
     ```sh
-    npm install typescript # 安装typescript
-    node_modules/.bin/tsc init # 生成tsconfig.json
-    node_modules/.bin/tsc # 触发编译
+    cd async-example
+    npm install # 下载依赖，依赖定义在package.json
+    node_modules/.bin/ts-node test.ts # 运行ts文件
     ```
 
 2. 请看async-example这个文件夹的例子
@@ -44,7 +44,7 @@ class Tree {
 
 let t = new Tree()
 t.add(2)
-t.exist(2)  // true
+t.hasValue(2)  // true
 t.add(4)
 t.add(4)
 t.add(3)
