@@ -36,19 +36,20 @@ f>data : 1992; name : agent 1 </def></abc>
 
 ## 2. 编写 quicksort
 
-## 3. 用二叉树实现一个数据结构，使插入、查询、删除的时间复杂度为O(logn)
+## 3. 实现一个二叉树，使插入、查询、删除的时间复杂度为O(logn)
 ```javascript
 class Tree {
 // implement your code
 }
 
 let t = new Tree()
-t.add("abc")
-t.exist("abc")  // true
-t.add("def")
-t.add("bcd")
-t.print()      //字典序输出，["abc", "bcd", "def"]
-t.remove("abc")
+t.add(2)
+t.exist(2)  // true
+t.add(4)
+t.add(4)
+t.add(3)
+t.print()      // 升序输出，[2, 3, 4]
+t.remove(2)    // [3, 4]
 ```
 
 [node官方文档](https://nodejs.org/en/)
