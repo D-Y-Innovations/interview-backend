@@ -35,6 +35,7 @@ f>data : 1992; name : agent 1 </def></abc>
 3. 使用正则表达式获取data后面的字段，将10个文件的data值全部获取，并相加
 
 ## 2. 编写 quicksort
+参见QuickSort.ts文件，确保代码能在1000毫秒内通过测试
 
 ## 3. 实现一个二叉树，使插入、查询、删除的时间复杂度为O(logn)
 ```javascript
